@@ -81,9 +81,9 @@ a:hover {
 }
 
 .bg-image {
+  background-image:  url("../../assets/img/logo-hero.png"), url("../../assets/img/bg-hero.webp");
   background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
+  background-size: contain, cover;
   background-position: center center;
 }
 
@@ -489,7 +489,7 @@ a:hover {
 # Navigation Menu
 --------------------------------------------------------------*/
 /**
-* Desktop Navigation 
+* Desktop Navigation
 */
 .navbar {
   padding: 0;
@@ -618,7 +618,7 @@ a:hover {
 }
 
 /**
-* Mobile Navigation 
+* Mobile Navigation
 */
 .mobile-nav-toggle {
   color: #fff;
@@ -1454,4 +1454,10 @@ footer .credits {
 
 footer .credits a {
   color: #fff;
+}
+
+
+.fluid-image {
+  width: 100%;
+  height: auto;
 }
